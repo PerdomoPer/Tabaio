@@ -1,6 +1,6 @@
 import './Header.css'
 import Link from './../link/Link'
-import imagem from ".././../assets/barbie.png"
+import imagem from ".././../assets/pp.png"
 
 export function Header(){
   return(

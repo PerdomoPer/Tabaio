@@ -1,5 +1,5 @@
 header{
-  background-color: lightpink;
+  background-color: black;
   display:flex;
   justify-content: space-between;
   width: 100vw;
@@ -14,12 +14,12 @@ header ul{
 header ul li a{
   padding: 1.5vh;
   text-decoration: none;
-  color: white;
+  color: gray;
   border: 1px solid hotpink;
 }
 header a:hover{
-  background-color: darkorchid;
-  color: black;
+  background-color: gray;
+  color: hotpink;
   transition: 750ms linear;
 }
 .Logo{

@@ -1,6 +1,6 @@
 import './Footer.css'
 import Link from './../link/Link'
-import imagem from ".././../assets/barbiefooter.png"
+import imagem from ".././../assets/pp.png"
 import imagem1 from ".././../assets/instagram_icon_logo.png"
 import imagem2 from ".././../assets/facebook.png"
 import imagem3 from ".././../assets/th.png"
@@ -18,31 +18,25 @@ export function Footer(){
         </div>
         <nav>
           <ul>
-                <li> <h1>Produtos</h1>
-              <Link texto='Bonecas'/>
-              <Link texto='Roupas'/>
-              <Link texto='Acessórios'/>
-              <Link texto='Casas de Bonecas'/>
+                <li> <h1>Historico Escolar</h1>
+              <Link texto='Flores'/>
+              <Link texto='IFMS'/>
                 </li>
             </ul>
         </nav>
         <nav>
             <ul>
-                <li> <h1>Filmes</h1>
-              <Link texto='Barbie e os Golfinhos Mágicos'/>
-              <Link texto='Barbie em Um Mundo de Vídeo Game'/>
-              <Link texto='Barbie Lago dos Cisnes'/>
-              <Link texto='Barbie em Vida de Sereia'/>
+                <li> <h1>Conquistas</h1>
+              <Link texto='Menções'/>
+              <Link texto='Medalhas'/>
                 </li>
             </ul>
         </nav>
         <nav>
             <ul>
                 <li> <h1>Contato</h1>
-              <Link texto='Contato'/>
-              <Link texto='Recall de Podutos e Segurança'/>
-              <Link texto='Feedback'/>
-              <Link texto='Oportunidades de Emprego'/>
+              <Link texto='Telefone'/>
+              <Link texto='Email'/>
                 </li>
             </ul>
         </nav>
@@ -50,10 +44,8 @@ export function Footer(){
             <ul> <h1>Termos e Condições</h1>
                 <li>
               <Link texto='Declaração de Privacidade'/>
-              <Link texto='Cookies e Tecnologia'/>
-              <Link texto='Declaração de Acessibilidade'/>
               <Link texto='Cookie Preferences'/>
-              <h6>©2023 Barbie</h6>
+              <h6>©2023 Perdomo</h6>
                 </li>
             </ul>
         </nav>
