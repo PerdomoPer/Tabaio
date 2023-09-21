@@ -1,22 +1,27 @@
-body{
-    background-color: beige ;
-    height: 70vh;
+.content-main{
+    display: flex;
+    gap: 15px;
+    padding: 15px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.main-foto{
-    height: 40vh;
-    position: fixed;
-    right: 0;
-    margin-top: 5vh;
-    margin-right: 5vw;
+.pesquisa{
+    font-size: 2vh;
+    padding: 1vh;
+    width: 40vw;
+    height: 2vh;
+    border-radius: 1vw;
+    border: 1px solid magenta;
+    margin-left: 30vw;
+    margin-top: 2.5vh;
+    margin-bottom: 1vh;
 }
-.main-h{
-    margin-top: 5vh;
-    margin-left: 10vw;
-    font-size: 5vh;
-}
-.main-p{
-    margin-top: 5vh;
-    margin-left: 5vw; 
-    font-size: 5vh;
-    width: 65%;
+.pesquisa1{
+    font-size: 2vh;
+    padding: 1vh;
+    width: 40vw;
+    height: 2vh;
+    margin-left: 30vw;
+    margin-top: 2.5vh;
+    margin-bottom: 1vh;
 }
